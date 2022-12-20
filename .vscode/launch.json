@@ -1,0 +1,452 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'problem10a'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=problem10a",
+                    "--package=advent_of_rust_2022"
+                ],
+                "filter": {
+                    "name": "problem10a",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'problem10a'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=problem10a",
+                    "--package=advent_of_rust_2022"
+                ],
+                "filter": {
+                    "name": "problem10a",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'problem9a'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=problem9a",
+                    "--package=advent_of_rust_2022"
+                ],
+                "filter": {
+                    "name": "problem9a",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'problem9a'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=problem9a",
+                    "--package=advent_of_rust_2022"
+                ],
+                "filter": {
+                    "name": "problem9a",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'problem8a'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=problem8a",
+                    "--package=advent_of_rust_2022"
+                ],
+                "filter": {
+                    "name": "problem8a",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'problem8a'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=problem8a",
+                    "--package=advent_of_rust_2022"
+                ],
+                "filter": {
+                    "name": "problem8a",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'problem5b'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=problem5b",
+                    "--package=advent_of_rust_2022"
+                ],
+                "filter": {
+                    "name": "problem5b",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'problem5b'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=problem5b",
+                    "--package=advent_of_rust_2022"
+                ],
+                "filter": {
+                    "name": "problem5b",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'problem4b'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=problem4b",
+                    "--package=advent_of_rust_2022"
+                ],
+                "filter": {
+                    "name": "problem4b",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'problem4b'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=problem4b",
+                    "--package=advent_of_rust_2022"
+                ],
+                "filter": {
+                    "name": "problem4b",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'problem9b'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=problem9b",
+                    "--package=advent_of_rust_2022"
+                ],
+                "filter": {
+                    "name": "problem9b",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'problem9b'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=problem9b",
+                    "--package=advent_of_rust_2022"
+                ],
+                "filter": {
+                    "name": "problem9b",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'problem7a'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=problem7a",
+                    "--package=advent_of_rust_2022"
+                ],
+                "filter": {
+                    "name": "problem7a",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'problem7a'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=problem7a",
+                    "--package=advent_of_rust_2022"
+                ],
+                "filter": {
+                    "name": "problem7a",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'problem8b'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=problem8b",
+                    "--package=advent_of_rust_2022"
+                ],
+                "filter": {
+                    "name": "problem8b",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'problem8b'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=problem8b",
+                    "--package=advent_of_rust_2022"
+                ],
+                "filter": {
+                    "name": "problem8b",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'problem5a'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=problem5a",
+                    "--package=advent_of_rust_2022"
+                ],
+                "filter": {
+                    "name": "problem5a",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'problem5a'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=problem5a",
+                    "--package=advent_of_rust_2022"
+                ],
+                "filter": {
+                    "name": "problem5a",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'problem4a'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=problem4a",
+                    "--package=advent_of_rust_2022"
+                ],
+                "filter": {
+                    "name": "problem4a",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'problem4a'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=problem4a",
+                    "--package=advent_of_rust_2022"
+                ],
+                "filter": {
+                    "name": "problem4a",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'problem6'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=problem6",
+                    "--package=advent_of_rust_2022"
+                ],
+                "filter": {
+                    "name": "problem6",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'problem6'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=problem6",
+                    "--package=advent_of_rust_2022"
+                ],
+                "filter": {
+                    "name": "problem6",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'problem10b'",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=problem10b",
+                    "--package=advent_of_rust_2022"
+                ],
+                "filter": {
+                    "name": "problem10b",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug unit tests in executable 'problem10b'",
+            "cargo": {
+                "args": [
+                    "test",
+                    "--no-run",
+                    "--bin=problem10b",
+                    "--package=advent_of_rust_2022"
+                ],
+                "filter": {
+                    "name": "problem10b",
+                    "kind": "bin"
+                }
+            },
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+}
