@@ -89,15 +89,18 @@ fn main() {
                             curr_node = 0;
                         } else if dest == ".." {
                             curr_node = tree[curr_node].parent;
+                        } else if let Some(new_node_id) = tree[curr_node].children.as_ref().unwrap().into_iter().filter(|child_id| {
+                            tree.get(**child_id).expect("The child ID to exist").name == dest
+                        }).nth(0).copied()
+                        {
+                            curr_node = new_node_id;
                         } else {
-                            for child_id in tree[curr_node].children.as_ref().unwrap() {
-                                if tree[*child_id].name == dest {
-                                    curr_node = *child_id;
-                                }
-                            }
+                            panic!("Trying to cd into unknown directory!");
                         }
+                    } else {
+                        panic!("Trying to cd without a target")
                     }
-                }
+                },
                 "ls" => continue,
                 _ => panic!("Invalid command found!"),
             }
